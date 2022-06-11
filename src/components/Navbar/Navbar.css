@@ -1,0 +1,23 @@
+.site-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.2rem;
+    /* make navbar sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* make sure navbar doesn't get overlapped */
+    z-index: 1;
+    height: 5vw;
+}
+
+.navbar, ul {
+    margin: 0;
+}
+
+.navbar, li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
